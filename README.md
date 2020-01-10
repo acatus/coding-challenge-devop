@@ -2,9 +2,13 @@
 
 ## Context
 The application was developed using Ruby on Rails.
+
 The application requires a database for storing data.
+
 The default database in Ruby on Rails is Sqlite3, but needs to be changed to PostgreSQL.
+
 The application requires a nonpersistant Redis database.
+
 The application is dependent on Sidekiq for background processing heavy tasks.
 
 ## Specification
@@ -19,7 +23,10 @@ The application is dependent on Sidekiq for background processing heavy tasks.
 - [ ] Fullfill the specifications
 
 ## Extra Credit
-These tasks are additional and won't mark you down. If you feel like it then give them a go :)
+These tasks are additional and won't mark you down. If you feel like it then give any of them a go.
+- Add an additional container to the Docker setup which acts as an SFTP server which is accessible from the within the Ruby on Rails application and the outside world.
 - Prepare some example to run this whole application in a Kubernetes environment.
 - Use a configuration management tool (like Puppet, Chef or Ansible) to bootstrap the server.
 
+## Why doesn't the task include ... ?
+Feel free to contact us with your ideas :yellow_heart:
