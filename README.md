@@ -21,6 +21,7 @@ The application is dependent on Sidekiq for background processing heavy tasks.
 - [ ] Fork this repository
 - [ ] Add your public ssh key to root
 - [ ] Fullfill the specifications
+- [ ] Send the solution as `git format-patch`
 
 ## Extra Credit
 These tasks are additional and won't mark you down. If you feel like it then give any of them a go.
